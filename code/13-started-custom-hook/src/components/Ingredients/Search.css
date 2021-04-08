@@ -1,0 +1,30 @@
+.search {
+  width: 30rem;
+  margin: 2rem auto;
+  max-width: 80%;
+}
+
+.search-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search-input input {
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.15rem 0.25rem;
+}
+
+.search-input input:focus {
+  outline: none;
+  border-color: #ff2058;
+}
+
+@media (min-width: 768px) {
+  .search-input {
+    flex-direction: row;
+  }
+}

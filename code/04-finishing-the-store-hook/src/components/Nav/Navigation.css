@@ -1,0 +1,40 @@
+.main-header {
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff2058;
+}
+
+.main-header nav {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header li {
+  padding: 0;
+  margin: 0 2rem;
+}
+
+.main-header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.main-header a:hover,
+.main-header a:active,
+.main-header a.active {
+  color: #560061;
+}

@@ -1,7 +1,7 @@
 .form {
   margin: 1rem 0;
   height: 19rem;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .control {

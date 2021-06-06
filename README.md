@@ -32,6 +32,9 @@ The subfolders in the `/code` folder are named such that mapping them to the cou
 
 You can download all the content of a branch via the "Code" button here on Github. You can then either [clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) the repository or simply download the selected branch content as a ZIP file.
 
+Please be aware that you cannot push, if you clone the project. 
+If you want to keep your commits for later reference and want to push the commits to GitHub, then I suggest you fork the repository.
+
 **Important:** You always download the **entire branch content!**
 
 You can then dive into the interesting folders (e.g. the individual code snapshots) locally on your hard drive.

@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 
 import Button from './components/UI/Button/Button';
 import './App.css';
-
+// to re evaluate i need change in props||context||state
 function App() {
+
+  const check='hi';
   const [showParagraph, setShowParagraph] = useState(false);
 
   console.log('APP RUNNING');

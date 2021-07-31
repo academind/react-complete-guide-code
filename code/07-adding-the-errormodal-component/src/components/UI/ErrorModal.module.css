@@ -35,6 +35,7 @@
   padding: 1rem;
   display: flex;
   justify-content: flex-end;
+  background-color : grey;
 }
 
 @media (min-width: 768px) {

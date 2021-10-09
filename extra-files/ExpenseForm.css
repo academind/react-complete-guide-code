@@ -6,13 +6,13 @@
   text-align: left;
 }
 
-.new-expense__control label {
+.new-expense__controls label {
   font-weight: bold;
   margin-bottom: 0.5rem;
   display: block;
 }
 
-.new-expense__control input {
+.new-expense__controls input {
   font: inherit;
   padding: 0.5rem;
   border-radius: 6px;

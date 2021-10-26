@@ -5,6 +5,7 @@
   padding: 0.5rem;
   margin: 1rem 0;
   background-color: #4b4b4b;
+  border-radius: 12px; //is it missed on your code???
 }
 
 .expense-item__description {

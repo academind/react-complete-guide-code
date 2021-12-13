@@ -1,6 +1,16 @@
+import { useRef } from 'react';
+
 import classes from './ProfileForm.module.css';
 
 const ProfileForm = () => {
+  const newPasswordInputRef = useRef();
+
+  const submitHandler = e => {
+    e.preventdefault();
+
+    const enteredNewPassword = newPasswordInputRef.current.value;
+  };
+
   return (
     <form className={classes.form}>
       <div className={classes.control}>
@@ -12,6 +22,6 @@ const ProfileForm = () => {
       </div>
     </form>
   );
-}
+};
 
 export default ProfileForm;

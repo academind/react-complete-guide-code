@@ -10,10 +10,10 @@ const AuthForm = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   const switchAuthModeHandler = () => {
-    setIsLogin((prevState) => !prevState);
+    setIsLogin(prevState => !prevState);
   };
 
-  const submitHandler = (event) => {
+  const submitHandler = event => {
     event.preventDefault();
 
     const enteredEmail = emailInputRef.current.value;
@@ -41,12 +41,12 @@ const AuthForm = () => {
         'Content-Type': 'application/json',
       },
     })
-      .then((res) => {
+      .then(res => {
         setIsLoading(false);
         if (res.ok) {
           return res.json();
         } else {
-          return res.json().then((data) => {
+          return res.json().then(data => {
             let errorMessage = 'Authentication failed!';
             // if (data && data.error && data.error.message) {
             //   errorMessage = data.error.message;
@@ -56,10 +56,10 @@ const AuthForm = () => {
           });
         }
       })
-      .then((data) => {
+      .then(data => {
         console.log(data);
       })
-      .catch((err) => {
+      .catch(err => {
         alert(err.message);
       });
   };

@@ -8,9 +8,9 @@ import configureProductsStore from './hooks-store/products-store';
 
 configureProductsStore();
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <BrowserRouter>
     <App />
-  </BrowserRouter>,
-  document.getElementById('root')
+  </BrowserRouter>
 );

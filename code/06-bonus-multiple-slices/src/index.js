@@ -10,9 +10,9 @@ import configureCounterStore from './hooks-store/counter-store';
 configureProductsStore();
 configureCounterStore();
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <BrowserRouter>
     <App />
-  </BrowserRouter>,
-  document.getElementById('root')
+  </BrowserRouter>
 );

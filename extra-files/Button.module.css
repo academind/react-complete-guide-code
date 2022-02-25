@@ -5,6 +5,7 @@
   color: white;
   padding: 0.25rem 1rem;
   cursor: pointer;
+  display: inline-block;
 }
 
 .button:hover,

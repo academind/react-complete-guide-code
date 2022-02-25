@@ -21,16 +21,25 @@ const Cart = (props) => {
 
   const cartItems = (
     <ul className={classes['cart-items']}>
-      {cartCtx.items.map((item) => (
-        <CartItem
-          key={item.id}
-          name={item.name}
-          amount={item.amount}
-          price={item.price}
-          onRemove={cartItemRemoveHandler.bind(null, item.id)}
+      {cartCtx.items.map((item) => {
+        /*
+          // because of the way the context ADD function was setup, this will essentially double the item amount and price
           onAdd={cartItemAddHandler.bind(null, item)}
-        />
-      ))}
+        */
+
+        // increment by 1 instead of doubling the item count
+        const sendItem = { ...item, amount: 1 };
+        return (
+          <CartItem
+            key={item.id}
+            name={item.name}
+            amount={item.amount}
+            price={item.price}
+            onRemove={cartItemRemoveHandler.bind(null, item.id)}
+            onAdd={cartItemAddHandler.bind(null, sendItem)}
+          />
+        );
+      })}
     </ul>
   );
 

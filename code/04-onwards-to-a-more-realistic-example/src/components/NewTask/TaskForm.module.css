@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form input {
+  font:inherit;
+  padding: 0.25rem;
+  border: none;
+  border-bottom: 3px solid #ccc;
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.form input:focus {
+  outline: none;
+  border-color: #7a0144;
+}

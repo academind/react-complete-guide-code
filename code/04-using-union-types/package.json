@@ -1,0 +1,19 @@
+{
+  "name": "react-complete-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "no-typescript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/react-complete-guide-2021"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.2.3"
+  }
+}

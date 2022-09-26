@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^12.5.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-scripts": "4.0.1",
+    "react-scripts": "5.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

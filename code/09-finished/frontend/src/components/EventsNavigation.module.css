@@ -1,0 +1,24 @@
+.header {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+}
+
+.list a {
+  background-color: var(--color-gray-500);
+  color: var(--color-gray-900);
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.list a:hover,
+.list a:active,
+.list a.active {
+  background-color: var(--color-primary-600);
+}

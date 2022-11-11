@@ -1,0 +1,23 @@
+.header {
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 40rem;
+}
+
+.header ul {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.header a {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #8032e0;
+}
+
+.header a:hover,
+.header a.active {
+  color: #530080;
+}

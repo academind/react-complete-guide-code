@@ -1,0 +1,20 @@
+.list {
+  margin: 2rem auto;
+  max-width: 40rem;
+}
+
+.list a {
+  text-transform: capitalize;
+  display: block;
+  margin: 1rem 0;
+  padding: 1rem;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  background-color: #404040;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.list a:hover {
+  background-color: #282727;
+}

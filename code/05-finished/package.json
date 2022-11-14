@@ -7,7 +7,7 @@
     "react-dom": "^18.0.0",
     "react-redux": "^7.1.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "^5.0.1",
     "redux": "^4.0.1"
   },
   "scripts": {

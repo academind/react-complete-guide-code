@@ -1,6 +1,7 @@
 import { Fragment, useState, useEffect } from 'react';
 
 import Users from './Users';
+import styles from "./UserFinder.module.css";
 
 const UserFinder = () => {
   const [filteredUsers, setFilteredUsers] = useState(DUMMY_USERS);
@@ -18,7 +19,9 @@ const UserFinder = () => {
 
   return (
     <Fragment>
+    <div className={styles.finder}>
       <input type='search' onChange={searchChangeHandler} />
+        </div>
       <Users users={filteredUsers} />
     </Fragment>
   );

@@ -14,7 +14,7 @@ export const TodosContext = React.createContext<TodosContextObj>({
   removeTodo: (id: string) => {},
 });
 
-const TodosContextProvider: React.FC = (props) => {
+const TodosContextProvider = ({ children }: { children: React.ReactNode }) => {
   const [todos, setTodos] = useState<Todo[]>([]);
 
   const addTodoHandler = (todoText: string) => {
@@ -39,7 +39,7 @@ const TodosContextProvider: React.FC = (props) => {
 
   return (
     <TodosContext.Provider value={contextValue}>
-      {props.children}
+      {children}
     </TodosContext.Provider>
   );
 };

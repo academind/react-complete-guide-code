@@ -23,6 +23,7 @@ const SimpleInput = (props) => {
       setEnteredNameIsValid(false);
       return;
     }
+     setEnteredNameIsValid(true);
   };
 
   const formSubmissionHandler = (event) => {

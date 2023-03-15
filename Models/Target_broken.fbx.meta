@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: 37bf9d928cafebb4e891d367427abe60
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Target_cell
+    100004: Target_cell.001
+    100006: Target_cell.002
+    100008: Target_cell.003
+    100010: Target_cell.004
+    100012: Target_cell.005
+    100014: Target_cell.006
+    100016: Target_cell.007
+    100018: Target_cell.008
+    100020: Target_cell.009
+    100022: Target_cell.010
+    100024: Target_cell.011
+    100026: Target_cell.012
+    100028: Target_cell.013
+    100030: Target_cell.014
+    100032: Target_cell.015
+    100034: Target_cell.016
+    100036: Target_cell.017
+    100038: Target_cell.018
+    100040: Target_cell.019
+    100042: Target_cell.020
+    100044: Target_cell.021
+    100046: Target_cell.022
+    100048: Target_cell.023
+    100050: Target_cell.024
+    400000: //RootNode
+    400002: Target_cell
+    400004: Target_cell.001
+    400006: Target_cell.002
+    400008: Target_cell.003
+    400010: Target_cell.004
+    400012: Target_cell.005
+    400014: Target_cell.006
+    400016: Target_cell.007
+    400018: Target_cell.008
+    400020: Target_cell.009
+    400022: Target_cell.010
+    400024: Target_cell.011
+    400026: Target_cell.012
+    400028: Target_cell.013
+    400030: Target_cell.014
+    400032: Target_cell.015
+    400034: Target_cell.016
+    400036: Target_cell.017
+    400038: Target_cell.018
+    400040: Target_cell.019
+    400042: Target_cell.020
+    400044: Target_cell.021
+    400046: Target_cell.022
+    400048: Target_cell.023
+    400050: Target_cell.024
+    2100000: No Name
+    2300000: Target_cell
+    2300002: Target_cell.001
+    2300004: Target_cell.002
+    2300006: Target_cell.003
+    2300008: Target_cell.004
+    2300010: Target_cell.005
+    2300012: Target_cell.006
+    2300014: Target_cell.007
+    2300016: Target_cell.008
+    2300018: Target_cell.009
+    2300020: Target_cell.010
+    2300022: Target_cell.011
+    2300024: Target_cell.012
+    2300026: Target_cell.013
+    2300028: Target_cell.014
+    2300030: Target_cell.015
+    2300032: Target_cell.016
+    2300034: Target_cell.017
+    2300036: Target_cell.018
+    2300038: Target_cell.019
+    2300040: Target_cell.020
+    2300042: Target_cell.021
+    2300044: Target_cell.022
+    2300046: Target_cell.023
+    2300048: Target_cell.024
+    3300000: Target_cell
+    3300002: Target_cell.001
+    3300004: Target_cell.002
+    3300006: Target_cell.003
+    3300008: Target_cell.004
+    3300010: Target_cell.005
+    3300012: Target_cell.006
+    3300014: Target_cell.007
+    3300016: Target_cell.008
+    3300018: Target_cell.009
+    3300020: Target_cell.010
+    3300022: Target_cell.011
+    3300024: Target_cell.012
+    3300026: Target_cell.013
+    3300028: Target_cell.014
+    3300030: Target_cell.015
+    3300032: Target_cell.016
+    3300034: Target_cell.017
+    3300036: Target_cell.018
+    3300038: Target_cell.019
+    3300040: Target_cell.020
+    3300042: Target_cell.021
+    3300044: Target_cell.022
+    3300046: Target_cell.023
+    3300048: Target_cell.024
+    4300000: Target_cell.024
+    4300002: Target_cell.023
+    4300004: Target_cell.022
+    4300006: Target_cell.021
+    4300008: Target_cell.020
+    4300010: Target_cell.019
+    4300012: Target_cell.018
+    4300014: Target_cell.017
+    4300016: Target_cell.016
+    4300018: Target_cell.015
+    4300020: Target_cell.014
+    4300022: Target_cell.013
+    4300024: Target_cell.012
+    4300026: Target_cell.011
+    4300028: Target_cell.010
+    4300030: Target_cell.009
+    4300032: Target_cell.008
+    4300034: Target_cell.007
+    4300036: Target_cell.006
+    4300038: Target_cell.005
+    4300040: Target_cell.004
+    4300042: Target_cell.003
+    4300044: Target_cell.002
+    4300046: Target_cell.001
+    4300048: Target_cell
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

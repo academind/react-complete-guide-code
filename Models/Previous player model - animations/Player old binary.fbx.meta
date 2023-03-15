@@ -1,0 +1,701 @@
+fileFormatVersion: 2
+guid: 497b12229d49ff340ba52345bd0d71f0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: foot.L
+    100002: foot.L_end
+    100004: foot.R
+    100006: foot.R_end
+    100008: forearm.L
+    100010: forearm.L.002
+    100012: forearm.L.002_end
+    100014: forearm.R
+    100016: forearm.R.002
+    100018: forearm.R.002_end
+    100020: hand.L
+    100022: hand.R
+    100024: Head
+    100026: Head_end
+    100028: //RootNode
+    100030: Racket
+    100032: shin.L
+    100034: shin.R
+    100036: shoulder.L
+    100038: shoulder.R
+    100040: spine
+    100042: spine.001
+    100044: spine.002
+    100046: spine.003
+    100048: Tennis player
+    100050: Tennis player rig
+    100052: thigh.L
+    100054: thigh.R
+    100056: upper_arm.L
+    100058: upper_arm.R
+    400000: foot.L
+    400002: foot.L_end
+    400004: foot.R
+    400006: foot.R_end
+    400008: forearm.L
+    400010: forearm.L.002
+    400012: forearm.L.002_end
+    400014: forearm.R
+    400016: forearm.R.002
+    400018: forearm.R.002_end
+    400020: hand.L
+    400022: hand.R
+    400024: Head
+    400026: Head_end
+    400028: //RootNode
+    400030: Racket
+    400032: shin.L
+    400034: shin.R
+    400036: shoulder.L
+    400038: shoulder.R
+    400040: spine
+    400042: spine.001
+    400044: spine.002
+    400046: spine.003
+    400048: Tennis player
+    400050: Tennis player rig
+    400052: thigh.L
+    400054: thigh.R
+    400056: upper_arm.L
+    400058: upper_arm.R
+    2100000: Racket
+    2100002: Racket net
+    2100004: Shirt
+    2100006: Player
+    2100008: Shoes
+    2100010: Pants
+    2100012: Socks
+    2100014: Headband
+    2300000: Racket
+    3300000: Racket
+    4300000: Racket
+    4300002: Tennis player
+    7400000: Tennis player rig|Hit_left_left
+    7400002: Tennis player rig|Hit_left_left_slide
+    7400004: Tennis player rig|Hit_left_right
+    7400006: Tennis player rig|Hit_left_right_slide_left
+    7400008: Tennis player rig|Hit_left_right_slide_right
+    7400010: Tennis player rig|Idle_default
+    7400012: Tennis player rig|Run_left
+    7400014: Tennis player rig|Run_right
+    7400016: Tennis player rig|Win
+    9500000: //RootNode
+    13700000: Tennis player
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Tennis player rig|Hit_left_left
+      takeName: Tennis player rig|Hit_left_left
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tennis player rig|Hit_left_left_slide
+      takeName: Tennis player rig|Hit_left_left_slide
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tennis player rig|Hit_left_right
+      takeName: Tennis player rig|Hit_left_right
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tennis player rig|Hit_left_right_slide_left
+      takeName: Tennis player rig|Hit_left_right_slide_left
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tennis player rig|Hit_left_right_slide_right
+      takeName: Tennis player rig|Hit_left_right_slide_right
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tennis player rig|Idle_default
+      takeName: Tennis player rig|Idle_default
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tennis player rig|Run_left
+      takeName: Tennis player rig|Run_left
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tennis player rig|Run_right
+      takeName: Tennis player rig|Run_right
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: spine
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine.001
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine.002
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine.003
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Player old binary(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tennis player
+      parentName: Player old binary(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Tennis player rig
+      parentName: Player old binary(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: spine
+      parentName: Tennis player rig
+      position: {x: -0.0013309398, y: 0.0029812448, z: 0.008112466}
+      rotation: {x: 0.93579704, y: 0.22990005, z: 0.039633814, w: 0.26430866}
+      scale: {x: 1, y: 0.99999994, z: 0.9999993}
+    - name: spine.001
+      parentName: spine
+      position: {x: -3.9968027e-17, y: 0.0031567866, z: -7.9162416e-10}
+      rotation: {x: -0.4830092, y: -0.12677501, z: 0.086196005, w: 0.86209077}
+      scale: {x: 0.9999998, y: 0.99999964, z: 1}
+    - name: spine.002
+      parentName: spine.001
+      position: {x: -1.8626451e-11, y: 0.0018701346, z: 2.0838342e-10}
+      rotation: {x: 0.04245954, y: -0.24703912, z: -0.013188397, w: 0.967985}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: spine.003
+      parentName: spine.002
+      position: {x: 9.313225e-11, y: 0.002806405, z: 3.7252902e-11}
+      rotation: {x: 0.012713014, y: -0.07019046, z: 0.062141478, w: 0.99551505}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Head
+      parentName: spine.003
+      position: {x: 7.4505804e-11, y: 0.0029616323, z: 0.00016977597}
+      rotation: {x: -0.027848672, y: 0.0738519, z: -0.09881113, w: 0.99197114}
+      scale: {x: 1.0000001, y: 0.9999998, z: 0.99999994}
+    - name: Head_end
+      parentName: Head
+      position: {x: -0, y: 0.0050368235, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder.L
+      parentName: spine.003
+      position: {x: -0.00047814182, y: 0.0019244867, z: 0.00035065025}
+      rotation: {x: -0.45140406, y: 0.61247945, z: 0.4714343, w: 0.44592938}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.9999999}
+    - name: upper_arm.L
+      parentName: shoulder.L
+      position: {x: -0.00020522773, y: 0.0022080587, z: -0.00049077393}
+      rotation: {x: 0.11160058, y: -0.79454094, z: 0.16391444, w: 0.5739183}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+    - name: forearm.L
+      parentName: upper_arm.L
+      position: {x: 1.4901161e-10, y: 0.0035618145, z: 1.4901161e-10}
+      rotation: {x: 0.012578423, y: 0.29474425, z: 0.0043766634, w: 0.9554834}
+      scale: {x: 0.99999976, y: 0.9999996, z: 0.9999997}
+    - name: hand.L
+      parentName: forearm.L
+      position: {x: -8.9406965e-10, y: 0.0033520097, z: 2.9802322e-10}
+      rotation: {x: -0.032482646, y: 0.0008246003, z: 0.17788677, w: 0.9835144}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999976}
+    - name: forearm.L.002
+      parentName: hand.L
+      position: {x: -0.000059500635, y: 0.00032319827, z: 0.0006156057}
+      rotation: {x: 0.393358, y: 0.4507926, z: 0.5001011, w: 0.6260627}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: forearm.L.002_end
+      parentName: forearm.L.002
+      position: {x: -0, y: 0.00067937374, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder.R
+      parentName: spine.003
+      position: {x: 0.00047814203, y: 0.0019244867, z: 0.00035065017}
+      rotation: {x: -0.5634014, y: -0.29814824, z: -0.4653424, w: 0.61411965}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.99999994}
+    - name: upper_arm.R
+      parentName: shoulder.R
+      position: {x: 0.00020522758, y: 0.0022080594, z: -0.000490773}
+      rotation: {x: -0.03725305, y: 0.7394496, z: 0.048098408, w: 0.6704575}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.9999999}
+    - name: forearm.R
+      parentName: upper_arm.R
+      position: {x: -2.4912877e-10, y: 0.0035618155, z: 7.4505804e-11}
+      rotation: {x: 0.0036341855, y: -0.16207656, z: -0.009791133, w: 0.9867229}
+      scale: {x: 0.99999994, y: 1.0000005, z: 0.99999994}
+    - name: hand.R
+      parentName: forearm.R
+      position: {x: 2.2351741e-10, y: 0.003352008, z: -0.0000000013411044}
+      rotation: {x: -0.072534434, y: -0.013164176, z: -0.081248604, w: 0.9939639}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: forearm.R.002
+      parentName: hand.R
+      position: {x: 0.000059500784, y: 0.0003231968, z: 0.00061560556}
+      rotation: {x: 0.393358, y: -0.4507926, z: -0.50010103, w: 0.6260627}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: forearm.R.002_end
+      parentName: forearm.R.002
+      position: {x: -0, y: 0.00067937374, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Racket
+      parentName: hand.R
+      position: {x: 0.0011585547, y: 0.0011707663, z: 0.0069023212}
+      rotation: {x: 0.51714694, y: 0.5463248, z: 0.45741868, w: 0.4741903}
+      scale: {x: 0.23280828, y: 0.23280834, z: 0.23280855}
+    - name: thigh.L
+      parentName: spine
+      position: {x: -0.0009799997, y: 0.0029325841, z: 0.0006670651}
+      rotation: {x: 0.84118795, y: -0.017052952, z: 0.012224927, w: 0.54033566}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1.0000001}
+    - name: shin.L
+      parentName: thigh.L
+      position: {x: -2.39379e-11, y: 0.0038379594, z: 2.910383e-11}
+      rotation: {x: 0.039881907, y: -0.0018216191, z: -0.018509591, w: 0.9990313}
+      scale: {x: 0.9999996, y: 1, z: 0.99999994}
+    - name: foot.L
+      parentName: shin.L
+      position: {x: 9.89354e-11, y: 0.00436948, z: -5.2386893e-12}
+      rotation: {x: -0.66044784, y: 0.07050644, z: 0.06385715, w: 0.74482197}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999998}
+    - name: foot.L_end
+      parentName: foot.L
+      position: {x: -0, y: 0.0026909134, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh.R
+      parentName: spine
+      position: {x: 0.0009800002, y: 0.0029325846, z: 0.0006670643}
+      rotation: {x: 0.8411879, y: 0.017053224, z: -0.012225327, w: 0.5403357}
+      scale: {x: 0.9999999, y: 0.9999997, z: 1.0000001}
+    - name: shin.R
+      parentName: thigh.R
+      position: {x: -1.2507372e-10, y: 0.00383796, z: 3.943569e-11}
+      rotation: {x: 0.03988191, y: 0.0018216122, z: 0.018509602, w: 0.9990313}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+    - name: foot.R
+      parentName: shin.R
+      position: {x: -1.5787122e-11, y: 0.004369479, z: 6.7666406e-12}
+      rotation: {x: -0.66493934, y: 0.02978101, z: 0.031623863, w: 0.7456332}
+      scale: {x: 0.99999976, y: 1, z: 0.9999999}
+    - name: foot.R_end
+      parentName: foot.R
+      position: {x: -0, y: 0.0026909134, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

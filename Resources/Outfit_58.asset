@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac90249a5ee9e90409a455c625f1e2d1, type: 3}
+  m_Name: Outfit_58
+  m_EditorClassIdentifier: 
+  hatType: 1
+  glasses: 1
+  female: 1
+  hairType: 1
+  skin: {fileID: 2100000, guid: 6137b67f6d5f3b345b5f15b0ca492938, type: 2}
+  hatMat: {fileID: 2100000, guid: ce4991a81bcbf8045821e77eb97ef2ed, type: 2}
+  shirt: {fileID: 2100000, guid: bcfa223210f36de45bb0ad80ab04fc35, type: 2}
+  pants: {fileID: 2100000, guid: ba42e6f77a2cabe45a227bf211d2d2c3, type: 2}
+  shoes: {fileID: 2100000, guid: d7adfb2c630356c4284c53721076901a, type: 2}
+  racket: {fileID: 2100000, guid: 2bee885fb08e2fa4db5e0571bd377b71, type: 2}
+  hair: {fileID: 2100000, guid: 1dc5509e96be44f4a8074cea336cde72, type: 2}

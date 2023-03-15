@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: b67a97fed2d00e540a06936899169d38
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Floor broken_cell
+    100004: Floor broken_cell.001
+    100006: Floor broken_cell.002
+    100008: Floor broken_cell.003
+    100010: Floor broken_cell.004
+    100012: Floor broken_cell.005
+    100014: Floor broken_cell.006
+    100016: Floor broken_cell.007
+    100018: Floor broken_cell.008
+    100020: Floor broken_cell.009
+    100022: Floor broken_cell.010
+    100024: Floor broken_cell.011
+    100026: Floor broken_cell.012
+    100028: Floor broken_cell.013
+    100030: Floor broken_cell.014
+    100032: Floor broken_cell.015
+    100034: Floor broken_cell.016
+    100036: Floor broken_cell.017
+    100038: Floor broken_cell.018
+    100040: Floor broken_cell.019
+    400000: //RootNode
+    400002: Floor broken_cell
+    400004: Floor broken_cell.001
+    400006: Floor broken_cell.002
+    400008: Floor broken_cell.003
+    400010: Floor broken_cell.004
+    400012: Floor broken_cell.005
+    400014: Floor broken_cell.006
+    400016: Floor broken_cell.007
+    400018: Floor broken_cell.008
+    400020: Floor broken_cell.009
+    400022: Floor broken_cell.010
+    400024: Floor broken_cell.011
+    400026: Floor broken_cell.012
+    400028: Floor broken_cell.013
+    400030: Floor broken_cell.014
+    400032: Floor broken_cell.015
+    400034: Floor broken_cell.016
+    400036: Floor broken_cell.017
+    400038: Floor broken_cell.018
+    400040: Floor broken_cell.019
+    2100000: Floor
+    2300000: Floor broken_cell
+    2300002: Floor broken_cell.001
+    2300004: Floor broken_cell.002
+    2300006: Floor broken_cell.003
+    2300008: Floor broken_cell.004
+    2300010: Floor broken_cell.005
+    2300012: Floor broken_cell.006
+    2300014: Floor broken_cell.007
+    2300016: Floor broken_cell.008
+    2300018: Floor broken_cell.009
+    2300020: Floor broken_cell.010
+    2300022: Floor broken_cell.011
+    2300024: Floor broken_cell.012
+    2300026: Floor broken_cell.013
+    2300028: Floor broken_cell.014
+    2300030: Floor broken_cell.015
+    2300032: Floor broken_cell.016
+    2300034: Floor broken_cell.017
+    2300036: Floor broken_cell.018
+    2300038: Floor broken_cell.019
+    3300000: Floor broken_cell
+    3300002: Floor broken_cell.001
+    3300004: Floor broken_cell.002
+    3300006: Floor broken_cell.003
+    3300008: Floor broken_cell.004
+    3300010: Floor broken_cell.005
+    3300012: Floor broken_cell.006
+    3300014: Floor broken_cell.007
+    3300016: Floor broken_cell.008
+    3300018: Floor broken_cell.009
+    3300020: Floor broken_cell.010
+    3300022: Floor broken_cell.011
+    3300024: Floor broken_cell.012
+    3300026: Floor broken_cell.013
+    3300028: Floor broken_cell.014
+    3300030: Floor broken_cell.015
+    3300032: Floor broken_cell.016
+    3300034: Floor broken_cell.017
+    3300036: Floor broken_cell.018
+    3300038: Floor broken_cell.019
+    4300000: Floor broken_cell.019
+    4300002: Floor broken_cell.018
+    4300004: Floor broken_cell.017
+    4300006: Floor broken_cell.016
+    4300008: Floor broken_cell.015
+    4300010: Floor broken_cell.014
+    4300012: Floor broken_cell.013
+    4300014: Floor broken_cell.012
+    4300016: Floor broken_cell.011
+    4300018: Floor broken_cell.010
+    4300020: Floor broken_cell.009
+    4300022: Floor broken_cell.008
+    4300024: Floor broken_cell.007
+    4300026: Floor broken_cell.006
+    4300028: Floor broken_cell.005
+    4300030: Floor broken_cell.004
+    4300032: Floor broken_cell.003
+    4300034: Floor broken_cell.002
+    4300036: Floor broken_cell.001
+    4300038: Floor broken_cell
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

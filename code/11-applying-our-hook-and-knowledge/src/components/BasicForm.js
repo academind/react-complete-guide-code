@@ -69,10 +69,10 @@ const BasicForm = (props) => {
           {firstNameHasError && <p className="error-text">Please enter a first name.</p>}
         </div>
         <div className={lastNameClasses}>
-          <label htmlFor='name'>Last Name</label>
+          <label htmlFor='lastName'>Last Name</label>
           <input
             type='text'
-            id='name'
+            id='lastName'
             value={lastNameValue}
             onChange={lastNameChangeHandler}
             onBlur={lastNameBlurHandler}
@@ -81,10 +81,10 @@ const BasicForm = (props) => {
         </div>
       </div>
       <div className={emailClasses}>
-        <label htmlFor='name'>E-Mail Address</label>
+        <label htmlFor='email'>E-Mail Address</label>
         <input
           type='text'
-          id='name'
+          id='email'
           value={emailValue}
           onChange={emailChangeHandler}
           onBlur={emailBlurHandler}

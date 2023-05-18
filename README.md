@@ -1,3 +1,7 @@
+# Some Text Changes 
+This is the first contribution in this repository.
+"-(HAPPY REPOSITORY)-"
+
 # Course Code & Materials
 
 This repository contains the course source code and other extra materials like slides.

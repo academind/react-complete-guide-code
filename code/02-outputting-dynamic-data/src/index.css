@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #2d2834; */
+  background: radial-gradient(#27212e, #221530);
+  color: #d9c9ee;
+}
+
+header {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+header img {
+  width: 7rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+header p {
+  margin: 0;
+}
+
+#concepts {
+  max-width: 50rem;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.concept {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  background: linear-gradient(#250358, #440c66);
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 20px rgba(234, 78, 240, 0.2);
+  width: 33%;
+  transition: all 0.2s
+}
+
+.concept:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s;
+  box-shadow: 0 2px 30px rgba(234, 78, 240, 0.4);
+}
+
+.concept img {
+  width: 6rem;
+  height: 5rem;
+  object-fit: contain;
+}
+
+.concept h2 {
+  margin: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.concept p {
+  margin: 0;
+  text-align: center;
+  font-size: 0.85rem;
+}

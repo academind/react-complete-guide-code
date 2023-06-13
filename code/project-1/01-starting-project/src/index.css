@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #242a28; */
+  background: radial-gradient(#303b37, #1a1f1d);
+  color: #e1eeeb;
+}
+
+.header {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+
+.header img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+  background-color: transparent;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+}
+
+.form {
+  padding: 1rem;
+  max-width: 30rem;
+  margin: 2rem auto;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #307e6c, #2b996d);
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.form input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #76c0ae;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: #c2e9e0;
+  font-size: 1rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background: linear-gradient(180deg, #1f584b, #17493d);
+  color: #c2e9e0;
+  font-family: 'Roboto Condensed', sans-serif;
+  cursor: pointer;
+}
+
+.buttonAlt {
+  font-family: 'Roboto Condensed', sans-serif;
+  border: none;
+  background: transparent;
+  color: #c2e9e0;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(180deg, #1b5346, #113c32);
+}
+
+.buttonAlt:hover {
+  background: transparent;
+  color: #91e1d0;
+}
+
+.result {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  table-layout: fixed;
+  border-spacing: 1rem;
+  text-align: right;
+}
+
+.result thead {
+  font-size: 0.7rem;
+  color: #83e6c0;
+}
+
+.result tbody {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.85rem;
+  color: #c2e9e0;
+}

@@ -14,9 +14,9 @@ You can switch branches via the branch dropdown above the directory explorer.
 
 In most branches, you'll find multiple folders which organize the section-specific content further:
 
-- Often, you'll find a `/code` subfolder which contains any relevent code snapshots for the given course section
-- You also often find `/slides` folders which - guess what - contain the slides for the module
-- `/extra-files` typically contains extra files like `.css` files that might be attached to individual lectures in that course module
+-   Often, you'll find a `/code` subfolder which contains any relevant code snapshots for the given course section
+-   You also often find `/slides` folders which - guess what - contain the slides for the module
+-   `/extra-files` typically contains extra files like `.css` files that might be attached to individual lectures in that course module
 
 The folder names should generally be self-explanatory but also feel free to simply click around and see which materials are available.
 

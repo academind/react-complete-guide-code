@@ -19,6 +19,7 @@
 
 .ModalClosed {
     animation: closeModal 0.4s ease-out forwards;
+    z-index: -100;
 }
 
 @keyframes openModal {

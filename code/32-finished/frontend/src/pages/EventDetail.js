@@ -90,5 +90,7 @@ export async function action({ params, request }) {
       }
     );
   }
+  await new Promise((res) => setTimeout(res, 1000));
   return redirect('/events');
 }
+

@@ -116,7 +116,7 @@ export async function action({ request, params }) {
   if (!response.ok) {
     throw json({ message: 'Could not save event.' }, { status: 500 });
   }
-
+  await new Promise((res) => setTimeout(res, 1000));
   return redirect('/events');
 }
 

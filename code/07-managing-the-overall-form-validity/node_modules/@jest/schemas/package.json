@@ -1,0 +1,29 @@
+{
+  "name": "@jest/schemas",
+  "version": "29.6.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/facebook/jest.git",
+    "directory": "packages/jest-schemas"
+  },
+  "license": "MIT",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./build/index.d.ts",
+      "default": "./build/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.27.8"
+  },
+  "engines": {
+    "node": "^14.15.0 || ^16.10.0 || >=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "c1e5b8a38ef54bb138409f89831942ebf6a7a67e"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "@adobe/css-tools",
+  "version": "4.2.0",
+  "description": "CSS parser / stringifier",
+  "main": "dist/umd/cssTools.js",
+  "module": "dist/cjs/cssTools.js",
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/cssTools.js"
+  },
+  "types": "dist/cjs/index.d.ts",
+  "files": [
+    "dist",
+    "Readme.md"
+  ],
+  "devDependencies": {
+    "@types/benchmark": "^2.1.1",
+    "@types/bytes": "^3.1.1",
+    "@types/jest": "^28.1.1",
+    "@types/node": "^18.0.0",
+    "benchmark": "^2.1.4",
+    "bytes": "^3.1.0",
+    "gts": "^4.0.0",
+    "jest": "^28.1.1",
+    "ts-jest": "^28.0.4",
+    "ts-loader": "^9.3.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "scripts": {
+    "benchmark": "ts-node benchmark/index.ts",
+    "test": "jest",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "build": "npm run compile && npm run buildesm",
+    "buildesm": "tsc --project tsconfig.esm.json && node ./add_esm_import_extensions.mjs",
+    "compile": "set NODE_ENV=prod & webpack --mode production",
+    "fix": "gts fix",
+    "prepare": "npm run build",
+    "pretest": "npm run build",
+    "posttest": "npm run lint"
+  },
+  "author": "TJ Holowaychuk <tj@vision-media.ca>",
+  "contributors": [
+    "Jean-Philippe Zolesio <holblin@gmail.com>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adobe/css-tools.git"
+  },
+  "keywords": [
+    "css",
+    "parser",
+    "stringifier",
+    "stylesheet"
+  ]
+}

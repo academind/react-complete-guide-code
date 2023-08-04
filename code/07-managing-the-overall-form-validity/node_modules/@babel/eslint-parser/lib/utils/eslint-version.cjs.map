@@ -1,0 +1,1 @@
+{"version":3,"names":["module","exports","parseInt","require","version"],"sources":["../../src/utils/eslint-version.cjs"],"sourcesContent":["module.exports = parseInt(require(\"eslint/package.json\").version, 10);\n"],"mappings":"AAAAA,MAAM,CAACC,OAAO,GAAGC,QAAQ,CAACC,OAAO,CAAC,qBAAqB,CAAC,CAACC,OAAO,EAAE,EAAE,CAAC"}

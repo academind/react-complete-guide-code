@@ -1,12 +1,12 @@
-import { useState } from 'react';
-import User from './User';
-
-import classes from './Users.module.css';
+import React from "react";
+import { useState } from "react";
+import User from "./User";
+import classes from "./Users.module.css";
 
 const DUMMY_USERS = [
-  { id: 'u1', name: 'Max' },
-  { id: 'u2', name: 'Manuel' },
-  { id: 'u3', name: 'Julie' },
+  { id: "u1", name: "Max" },
+  { id: "u2", name: "Manuel" },
+  { id: "u3", name: "Julie" },
 ];
 
 const Users = () => {
@@ -27,7 +27,7 @@ const Users = () => {
   return (
     <div className={classes.users}>
       <button onClick={toggleUsersHandler}>
-        {showUsers ? 'Hide' : 'Show'} Users
+        {showUsers ? "Hide" : "Show"} Users
       </button>
       {showUsers && usersList}
     </div>

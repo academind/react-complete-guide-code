@@ -1,0 +1,12 @@
+{
+	"root": true,
+
+	"extends": "@ljharb",
+
+	"rules": {
+		"id-length": [2, { "min": 1, "max": 30 }],
+		"max-lines-per-function": 0,
+		"multiline-comment-style": 0,
+		"no-magic-numbers": 0,
+	}
+}

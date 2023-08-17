@@ -1,0 +1,34 @@
+{
+  "name": "@svgr/core",
+  "description": "Transform SVG into React Components.",
+  "version": "2.4.1",
+  "main": "lib/index.js",
+  "repository": "git@github.com:smooth-code/svgr.git",
+  "author": "Greg Bergé <berge.greg@gmail.com>",
+  "keywords": [
+    "svgr",
+    "svg",
+    "react",
+    "core",
+    "api"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rm -rf lib/",
+    "build": "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+    "prepublishOnly": "yarn run build"
+  },
+  "dependencies": {
+    "camelcase": "^5.0.0",
+    "cosmiconfig": "^5.0.6",
+    "h2x-core": "^1.1.0",
+    "h2x-plugin-jsx": "^1.1.0",
+    "merge-deep": "^3.0.2",
+    "prettier": "^1.14.2",
+    "svgo": "^1.0.5"
+  },
+  "gitHead": "8683967eba69079e1ce0fde9de340a6bb16cf433"
+}

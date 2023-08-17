@@ -1,0 +1,1 @@
+{"ast":null,"code":"'use strict';\n\nvar stringify = require('./stringify');\nvar parse = require('./parse');\nvar formats = require('./formats');\nmodule.exports = {\n  formats: formats,\n  parse: parse,\n  stringify: stringify\n};","map":null,"metadata":{},"sourceType":"script"}

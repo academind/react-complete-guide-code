@@ -1,0 +1,19 @@
+{
+  "name": "h2x-traverse",
+  "description": "Traverse and modify h2x AST.",
+  "version": "1.1.0",
+  "repository": "https://github.com/smooth-code/h2x/tree/master/packages/h2x-traverse",
+  "author": "Bergé Greg <berge.greg@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/smooth-code/h2x",
+  "main": "lib/index.js",
+  "scripts": {
+    "prebuild": "rm -rf lib/",
+    "build": "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+    "prepublishOnly": "yarn run build"
+  },
+  "dependencies": {
+    "h2x-types": "^1.1.0"
+  },
+  "gitHead": "c9230056a48c0b647ac1e6839f219997a3f2061a"
+}

@@ -1,0 +1,20 @@
+{
+  "root": true,
+
+  "extends": "@ljharb",
+
+  "rules": {
+    "array-bracket-newline": 0,
+    "array-bracket-spacing": 0,
+    "func-style": [2, "declaration"],
+  },
+
+  "overrides": [
+    {
+      "files": "example/**",
+      "rules": {
+        "no-console": 0,
+      },
+    },
+  ]
+}

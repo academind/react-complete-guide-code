@@ -1,0 +1,1 @@
+{"ast":null,"code":"'use strict';\n\nvar implementation = require('./implementation');\nmodule.exports = Function.prototype.bind || implementation;","map":null,"metadata":{},"sourceType":"script"}

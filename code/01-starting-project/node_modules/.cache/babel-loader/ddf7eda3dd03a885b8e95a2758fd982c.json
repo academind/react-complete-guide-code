@@ -1,0 +1,1 @@
+{"ast":null,"code":"'use strict';\n\nvar bind = require('function-bind');\nmodule.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);","map":null,"metadata":{},"sourceType":"script"}

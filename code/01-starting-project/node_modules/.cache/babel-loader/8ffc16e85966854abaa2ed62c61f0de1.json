@@ -1,0 +1,1 @@
+{"ast":null,"code":"'use strict';\n\nvar test = {\n  foo: {}\n};\nvar $Object = Object;\nmodule.exports = function hasProto() {\n  return {\n    __proto__: test\n  }.foo === test.foo && !({\n    __proto__: null\n  } instanceof $Object);\n};","map":null,"metadata":{},"sourceType":"script"}

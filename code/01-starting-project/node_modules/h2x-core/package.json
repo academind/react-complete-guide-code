@@ -1,0 +1,21 @@
+{
+  "name": "h2x-core",
+  "description": "H2X compiler core.",
+  "version": "1.1.1",
+  "repository": "https://github.com/smooth-code/h2x/tree/master/packages/h2x-core",
+  "author": "Bergé Greg <berge.greg@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/smooth-code/h2x",
+  "main": "lib/index.js",
+  "scripts": {
+    "prebuild": "rm -rf lib/",
+    "build": "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+    "prepublishOnly": "yarn run build"
+  },
+  "dependencies": {
+    "h2x-generate": "^1.1.0",
+    "h2x-parse": "^1.1.1",
+    "h2x-traverse": "^1.1.0"
+  },
+  "gitHead": "a0d09de7ae619b7ec529c2617d94d0f3ade09cf7"
+}

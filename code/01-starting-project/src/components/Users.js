@@ -2,11 +2,11 @@ import React, { useState, Component } from "react";
 import User from "./User";
 import classes from "./Users.module.css";
 
-const DUMMY_USERS = [
-  { id: "u1", name: "Max" },
-  { id: "u2", name: "Manuel" },
-  { id: "u3", name: "Julie" },
-];
+// const DUMMY_USERS = [
+//   { id: "u1", name: "Max" },
+//   { id: "u2", name: "Manuel" },
+//   { id: "u3", name: "Julie" },
+// ];
 
 class Users extends Component {
   constructor() {
@@ -14,6 +14,12 @@ class Users extends Component {
     this.state = {
       showUsers: false,
     };
+  }
+
+  componentDidUpdate() {
+    if (this.props.users.length === 0) {
+      throw new Error("No user provided!");
+    }
   }
 
   toggleUsersHandler() {
@@ -25,7 +31,7 @@ class Users extends Component {
   render() {
     const usersList = (
       <ul>
-        {DUMMY_USERS.map((user) => (
+        {this.props.users.map((user) => (
           <User key={user.id} name={user.name} />
         ))}
       </ul>

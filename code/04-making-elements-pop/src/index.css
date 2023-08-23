@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(#222c31, #111d32);
+  color: #d9e2f1;
+  min-height: 100vh;
+}
+
+#main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 40rem;
+  margin: 2rem auto;
+  color: #fff;
+}
+
+#hero-img {
+  display: block;
+  width: 80%;
+  height: 60vh;
+  margin: 2rem auto;
+  object-fit: cover;
+}
+
+#main-header h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
+  color: #84b0fc;
+}
+
+#welcome-header {
+  height: 100vh;
+}
+
+#city-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+#hero-image {
+  width: 20rem;
+  max-width: 40%;
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+  object-fit: cover;
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.5));
+}
+
+#welcome-header-content {
+  width: 40rem;
+  position: absolute;
+  top: 30%;
+  left: calc(50% - 20rem);
+  z-index: 1;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+#welcome-header-content h1 {
+  font-size: 3rem;
+  color: #fff;
+  margin: 2rem 0;
+}
+
+#cta-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #0f61ef;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#cta-link:hover {
+  background-color: #0f86ef;
+}
+
+#welcome-content section {
+  margin: 6rem 0;
+}
+
+#welcome-content h2 {
+  font-size: 2.5rem;
+  margin: 2rem 0;
+  color: #f2f25d;
+}
+
+main {
+  width: 80%;
+  max-width: 40rem;
+  margin: 1rem auto;
+}
+
+#new-challenge label {
+  display: block;
+  margin-bottom: 0.15rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  font-family: 'Quicksand', sans-serif;
+  color: #414956;
+}
+
+#new-challenge input,
+#new-challenge textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #d9e2f1;
+  background-color: #fff;
+  color: #414956;
+  font-size: 0.8rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#new-challenge-images {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, 3rem);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#new-challenge-images li {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 2px solid transparent;
+}
+
+#new-challenge-images li.selected {
+  border: 2px solid #0f61ef;
+}
+
+#new-challenge-images li img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#challenges {
+  background-color: #22323a;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+#tabs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+#tabs button {
+  padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 4px 4px 0 0;
+  background-color: transparent;
+  color: #b0caf9;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+}
+
+#tabs button:hover,
+#tabs button.selected {
+  /* background-color: #355767; */
+  color: #fff;
+}
+
+#tabs .active-tab-indicator {
+  border: 1.5px solid #0f86ef;
+  border-radius: 8px;
+}
+
+.challenge-items {
+  width: 100%;
+  max-width: 90%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  list-style: none;
+  margin: 2rem 0 0 0;
+  padding: 0;
+}
+
+.challenge-item {
+  width: 100%;
+}
+
+.challenge-item header {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.challenge-item-meta {
+  width: 100%;
+}
+
+.challenge-item header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #b1c1d9;
+}
+
+.challenge-item header p {
+  margin-top: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.7rem;
+}
+
+.challenge-item-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.challenge-item-actions button {
+  cursor: pointer;
+  font: inherit;
+  background: transparent;
+  border: none;
+  color: #7aaafc;
+  padding: 0;
+}
+
+.challenge-item-actions button:hover {
+  color: #5d7bf2;
+}
+
+.challenge-item-actions .btn-negative {
+  color: #ff7b7b;
+}
+
+.challenge-item-actions .btn-negative:hover {
+  color: #ff4f4f;
+}
+
+.challenge-item img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: contain;
+}
+
+.challenge-item-details button {
+  cursor: pointer;
+  font: inherit;
+  background: transparent;
+  border: none;
+  color: #7aaafc;
+  padding: 0;
+}
+
+.challenge-item-details-icon {
+  display: inline-block;
+  font-size: 0.85rem;
+  margin-left: 0.25rem;
+}
+
+.challenge-item-description {
+  margin: 0;
+}
+
+.new-challenge-actions button,
+.button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: #0f61ef;
+  color: #fff;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.new-challenge-actions button:hover,
+.button:hover {
+  background-color: #0f3cef;
+}
+
+.modal {
+  top: 10%;
+  border-radius: 6px;
+  padding: 1.5rem;
+  width: 30rem;
+  max-width: 90%;
+  z-index: 10;
+}
+
+@keyframes slide-up-fade-in {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.modal h2 {
+  margin-top: 0;
+}
+
+.new-challenge-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.new-challenge-actions button:first-of-type {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #314a77;
+  border: none;
+  box-shadow: none;
+}
+
+.new-challenge-actions button:first-of-type:hover {
+  background-color: transparent;
+  color: #0f3cef;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 9;
+}
+
+.badge {
+  margin-left: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  background-color: #0f61ef;
+  color: #fff;
+  font-size: 0.5rem;
+}

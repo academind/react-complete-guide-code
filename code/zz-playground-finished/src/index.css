@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(#c9dae2, #a9b2c1);
+  color: #0e141e;
+  min-height: 100vh;
+}
+
+#demo {
+  width: 30rem;
+  margin: 5rem auto;
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+}
+
+#box {
+  width: 7rem;
+  height: 7rem;
+  background-color: #4c00ff;
+  border-radius: 8px;
+}
+
+#inputs label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font: inherit;
+  font-weight: bold;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: #5e6c73;
+}
+
+#inputs input {
+  font: inherit;
+  font-size: 1.5rem;
+  background-color: #a3b3bb;
+  border: 1px solid #3b484f;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
